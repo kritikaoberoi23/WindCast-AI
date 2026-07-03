@@ -1,0 +1,284 @@
+/* ==========================================================
+                    WINDCAST AI THEME
+==========================================================*/
+
+/* ---------------- GOOGLE FONT ---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ---------------- BACKGROUND ---------------- */
+
+html,
+body,
+[class*="css"]{
+    font-family:'Poppins',sans-serif;
+}
+
+.stApp{
+    background:linear-gradient(135deg,#08111f,#10203d,#1d4ed8);
+    color:white;
+}
+
+/* ---------------- REMOVE STREAMLIT ---------------- */
+
+#MainMenu{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+header{
+    visibility:hidden;
+}
+
+/* ---------------- PAGE ---------------- */
+
+.block-container{
+
+    max-width:1400px;
+
+    padding-top:1rem;
+
+    padding-left:3rem;
+
+    padding-right:3rem;
+
+    padding-bottom:2rem;
+
+}
+
+/* ---------------- TITLES ---------------- */
+
+h1{
+
+    color:white !important;
+
+    font-size:3rem !important;
+
+    font-weight:700 !important;
+
+}
+
+h2{
+
+    color:rgb(44, 74, 138) !important;
+
+    font-weight:600 !important;
+
+}
+
+h3{
+
+    color:#60A5FA !important;
+
+    font-weight:600 !important;
+
+}
+
+p{
+
+    color:#CBD5E1 !important;
+
+}
+
+/* ---------------- CONTAINERS ---------------- */
+
+div[data-testid="stVerticalBlock"]{
+
+    gap:0.8rem;
+
+}
+
+/* ---------------- INPUT AREA ---------------- */
+
+div[data-testid="stSelectbox"]{
+
+    background:#12213f;
+
+    border-radius:12px;
+
+    padding:5px;
+
+}
+
+div[data-testid="stNumberInput"]{
+
+    background:#12213f;
+
+    border-radius:12px;
+
+    padding:5px;
+
+}
+
+div[data-testid="stDateInput"]{
+
+    background:#12213f;
+
+    border-radius:12px;
+
+    padding:5px;
+
+}
+
+div[data-testid="stSlider"]{
+
+    padding-top:10px;
+
+    padding-bottom:5px;
+
+}
+
+/* ---------------- LABELS ---------------- */
+
+label{
+
+    color:white !important;
+
+    font-weight:600 !important;
+
+}
+
+[data-testid="stWidgetLabel"] p{
+
+    color:white !important;
+
+}
+
+/* ---------------- BUTTON ---------------- */
+
+.stButton>button{
+
+    width:100%;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:14px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:white;
+
+    background:linear-gradient(90deg,#2563EB,#7C3AED);
+
+    transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0px 10px 25px rgba(37,99,235,.45);
+
+}
+
+/* ---------------- METRICS ---------------- */
+
+div[data-testid="metric-container"]{
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:16px;
+
+    padding:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+}
+
+div[data-testid="metric-container"]:hover{
+
+    transform:translateY(-4px);
+
+    transition:.3s;
+
+}
+
+/* Metric label */
+
+[data-testid="stMetricLabel"]{
+
+    color:#CBD5E1 !important;
+
+}
+
+/* Metric value */
+
+[data-testid="stMetricValue"]{
+
+    color:white !important;
+
+    font-size:34px !important;
+
+    font-weight:700;
+
+}
+
+/* ---------------- DIVIDER ---------------- */
+
+hr{
+
+    border:1px solid rgba(255,255,255,.12);
+
+}
+
+/* ---------------- INFO BOX ---------------- */
+
+div[data-testid="stAlert"]{
+
+    background:rgba(255,255,255,.08);
+
+    border:none;
+
+    border-radius:15px;
+
+}
+
+/* ---------------- SIDEBAR ---------------- */
+
+section[data-testid="stSidebar"]{
+
+    background:#08111f;
+
+}
+
+/* ---------------- SCROLLBAR ---------------- */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563EB;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#08111f;
+
+}
+
+/* ---------------- PLOTLY ---------------- */
+
+.js-plotly-plot{
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}

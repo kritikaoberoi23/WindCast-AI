@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large datasets
+processed_2019/
+processed_2020/
+Feature_engineered/
+
+# Trained models
+models/
+
+# Virtual environments
+venv/
+.venv/
+.env
+
+# OS files
+Thumbs.db
+.DS_Store
