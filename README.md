@@ -258,7 +258,17 @@ Large processed datasets and trained model files are intentionally excluded from
 
 This project demonstrates practical applications of **Machine Learning**, **Meteorological Data Analysis**, **Feature Engineering**, and **Interactive Web Deployment**, making it suitable for atmospheric data analytics, educational purposes, and future research in weather forecasting.
 ---
+# 📸 Application Preview
 
+<p align="center">
+  <img src="Screenshots/home1.png" width="45%">
+  <img src="Screenshots/home2.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="Screenshots/home3.png" width="45%">
+  <img src="Screenshots/home4.png" width="45%">
+</p>
 ## 👨‍💻 Author
 
 **Kritika Oberoi**
